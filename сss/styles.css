@@ -1,0 +1,64 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #560cea;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Переваги */
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+.features-list .link {
+  color: var(--accent-color);
+}
+
+/* приклади робіт */
+.work-list .title {
+  color: var(--title-text-color);
+}
+
+/* Кнопки */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+}
+.button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+}
