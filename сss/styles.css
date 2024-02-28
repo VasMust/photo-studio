@@ -1,25 +1,36 @@
 :root {
   --primary-text-color: rgba(0, 0, 0, 0.8);
   --title-text-color: #000000;
-  --accent-color: #560cea;
+  --accent-color: #2196f3;
   --white-color: #ffffff;
 }
 
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
+
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
 }
 
-.list {
+ul {
   list-style: none;
 }
 
 .logo {
   color: var(--title-text-color);
+
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.14;
 }
 
 .site-nav .link {
   color: var(--accent-color);
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .site-nav .link.current {
@@ -29,6 +40,14 @@ body {
 .site-nav .link:focus {
   color: var(--title-text-color);
 }
+
+/* Hero */
+
+/* font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2%;
+text-align: left; */
 
 .section-title {
   color: var(--title-text-color);
@@ -52,6 +71,10 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--white-color);
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .button.primary {
   color: var(--white-color);
